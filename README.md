@@ -57,9 +57,9 @@ On-going list of open projects
 - Solution: Provide native integration of IPFS into data/ML pipelines (using Kubeflow as a first example, but supporting Airflow, Sagemaker, Azure ML and Google Vertex at a minimum). Further, enable transformation and parameterization of these notebooks into production-ready artifacts, further simplifying IPFS's use as a data storage location.
   - See more: https://sameproject.ml/
 
-## Declarative setup of PL Infra
+## Declarative setup of Infrastructure Necessary to Support IPFS
 
-- Problem: Setting up of Lotus nodes on common deployment platforms is too challenging. This results in fewer miners, more complex debugging, and, ultimately, less data available on the network.
+- Problem: Setting up of Lotus nodes on common deployment platforms is too challenging. This results in fewer storage providers, more complex debugging, and, ultimately, less data available on the network. There are many components to support IPFS properly, they all suffer from challenging setup.
 - Solution: Provide declarative setup tools (e.g. helm charts) that work against common deployment platforms (e.g. Kubernetes). Integrate this with our current CI/CD systems to allow for more sophisticated integration testing of new lotus releases before rollout.
   - See more: https://github.com/filecoin-project/athena
 
